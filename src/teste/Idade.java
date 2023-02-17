@@ -5,7 +5,7 @@ public class Idade {
         var menorIdade = 15;
         var maiorIdade = 20;
 
-        if (maiorIdade >= 18)
+        if (maiorIdade > menorIdade)
             System.out.println("Maior idade: " + maiorIdade + " anos");
     }
 }
